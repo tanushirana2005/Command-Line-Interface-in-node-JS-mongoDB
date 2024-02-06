@@ -1,0 +1,23 @@
+{
+  "name": "customer-cli",
+  "version": "1.0.0",
+  "description": "Customer Data",
+  "main": "index.mjs",
+  "preferGlobal": true,
+  "type":"module",
+  "bin": {
+    "customer-cli": "./commands.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Tanushi",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "inquirer": "^9.2.13",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.1"
+  }
+}
